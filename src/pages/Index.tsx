@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from "@/components/landing/Header";
+import { Hero } from "@/components/landing/Hero";
+import { About } from "@/components/landing/About";
+import { Ecosystem } from "@/components/landing/Ecosystem";
+import { Products } from "@/components/landing/Products";
+import { Labs } from "@/components/landing/Labs";
+import { TechStack } from "@/components/landing/TechStack";
+import { Footer } from "@/components/landing/Footer";
+import { useEffect } from "react";
 
 const Index = () => {
+  useEffect(() => {
+    // Set dark mode by default
+    document.documentElement.classList.add("dark");
+  }, []);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+      <About />
+      <Ecosystem />
+      <Products />
+      <Labs />
+      <TechStack />
+      <Footer />
     </div>
   );
 };
