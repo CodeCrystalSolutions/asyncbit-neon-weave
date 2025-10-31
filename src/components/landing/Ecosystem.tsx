@@ -1,35 +1,35 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Layers, Box, Zap, Code } from "lucide-react";
+import { Layers, Brain, Zap, Code } from "lucide-react";
 
 const layers = [
   {
-    icon: Box,
-    title: "IaaS",
-    subtitle: "The Foundation",
-    description: "Scalable infrastructure and compute resources powering intelligent systems.",
+    icon: Brain,
+    title: "AI Models",
+    subtitle: "The Intelligence",
+    description: "Pre-trained and custom AI models for various applications.",
     color: "from-primary/20 to-primary/5",
   },
   {
     icon: Layers,
-    title: "PaaS",
-    subtitle: "The Platform",
-    description: "Development platform for building and deploying ML pipelines.",
+    title: "ML Platform",
+    subtitle: "The Engine",
+    description: "Tools for training, deploying, and managing machine learning workflows.",
     color: "from-accent/20 to-accent/5",
   },
   {
     icon: Zap,
-    title: "SaaS",
+    title: "Applications",
     subtitle: "The Suite",
-    description: "Intelligent applications and tools for modern workflows.",
+    description: "Intelligent SaaS applications powered by async AI technology.",
     color: "from-primary/30 to-primary/10",
   },
   {
     icon: Code,
     title: "DevTools",
     subtitle: "The Toolkit",
-    description: "SDKs, CLIs, and APIs for seamless integration.",
+    description: "SDKs, CLIs, and APIs for seamless AI integration.",
     color: "from-accent/30 to-accent/10",
   },
 ];
@@ -54,7 +54,7 @@ export const Ecosystem = () => {
             The <span className="neon-text">Async Stack</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From compute to cognition — one intelligent continuum.
+            From models to deployment — one intelligent platform.
           </p>
         </motion.div>
 

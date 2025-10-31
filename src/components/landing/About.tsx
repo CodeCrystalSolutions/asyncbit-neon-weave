@@ -50,16 +50,16 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              We build the <span className="neon-text">architecture</span> of intelligence.
+              We build the <span className="neon-text">tools</span> of intelligence.
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              AsyncBit develops intelligent systems and infrastructure — combining AI, ML, SaaS, 
-              PaaS, and IaaS into one cohesive ecosystem.
+              AsyncBit develops intelligent AI and ML platforms — creating powerful tools 
+              for developers, researchers, and innovators building the next generation of intelligent systems.
             </p>
             <p className="text-lg text-muted-foreground">
-              We create the tools that build the future: <span className="text-primary font-semibold">autonomous</span>, 
+              We create software that empowers: <span className="text-primary font-semibold">autonomous</span>, 
               {" "}<span className="text-primary font-semibold">adaptive</span>, and{" "}
-              <span className="text-primary font-semibold">asynchronous</span>.
+              <span className="text-primary font-semibold">asynchronous</span> development.
             </p>
           </motion.div>
         </div>

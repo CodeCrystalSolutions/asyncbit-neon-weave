@@ -9,7 +9,7 @@ export const Footer = () => {
           <div>
             <img src={logo} alt="AsyncBit" className="h-8 w-auto mb-4" />
             <p className="text-sm text-muted-foreground">
-              Building the architecture of intelligence.
+              Building intelligent tools for developers.
             </p>
           </div>
 
@@ -18,12 +18,12 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
-                  AetherCompute
+                  NeuralForge
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
-                  BitStack
+                  AsyncML
                 </a>
               </li>
               <li>
